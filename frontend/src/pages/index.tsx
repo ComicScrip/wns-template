@@ -1,5 +1,7 @@
 import Layout from "@/components/Layout";
+import { useExampleQuery } from "@/graphql/generated/schema";
 
 export default function Home() {
-  return <Layout title="Home">Hello</Layout>;
+  const { data } = useExampleQuery();
+  return <Layout title="Home">{data?.exampleQuery}</Layout>;
 }
