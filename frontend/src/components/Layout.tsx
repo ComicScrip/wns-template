@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Header from "./Header";
 import { ReactNode } from "react";
 
 interface LayoutProps {
@@ -12,11 +11,11 @@ export default function Layout({ children, title }: LayoutProps) {
     <>
       <Head>
         <title>{title}</title>
-        <meta name="description" content="petites annonces" />
+        <meta name="description" content="my description" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+
       <main className="main-content">{children}</main>
     </>
   );

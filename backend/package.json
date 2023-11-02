@@ -1,5 +1,5 @@
 {
-  "name": "the-good-corner",
+  "name": "wns-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ComicScrip/the-good-corner.git"
+    "url": "git+https://github.com/ComicScrip/wns-template.git"
   },
   "keywords": [
     "ads"
@@ -17,9 +17,9 @@
   "author": "Pierre Genthon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ComicScrip/the-good-corner/issues"
+    "url": "https://github.com/ComicScrip/wns-template/issues"
   },
-  "homepage": "https://github.com/ComicScrip/the-good-corner#readme",
+  "homepage": "https://github.com/ComicScrip/wns-template#readme",
   "dependencies": {
     "@apollo/server": "^4.9.5",
     "class-validator": "^0.14.0",
